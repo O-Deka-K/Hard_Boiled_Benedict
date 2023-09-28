@@ -59,11 +59,11 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
 
 ## Changelog
 
-### [1.0.0] - 2023-09-25
+### [1.0.0] - 2023-09-26
 
 - First release
 
-### [1.0.1] - 2023-09-XX
+### [1.0.1] - 2023-09-27
 
 - Added IMFDB to credits
 - Removed ModulAK dependency and replaced with vanilla AKs
