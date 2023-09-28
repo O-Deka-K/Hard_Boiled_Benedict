@@ -1,0 +1,125 @@
+{
+  "FileName": "vault_IMI_UziMicro_hbb",
+  "LoadedRoundsInMag": [
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ"
+  ],
+  "LoadedRoundsInChambers": [
+    "FMJ"
+  ],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -6.0,
+  "SpeedForward": 5.0,
+  "SpringStiffness": 240.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0099,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": 0.0157,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": 0.0213,
+      "ModeType": "FullAuto",
+      "BurstAmount": 3
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "MicroUzi",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False",
+        "HammerState": "Cocked",
+        "FireSelectorState": "2"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "MagazineMicroUzi32rnd",
+      "PosOffset": {
+        "x": 0.0,
+        "y": -0.03588341,
+        "z": 0.00947094
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": false,
+      "IsMagazine": true,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    }
+  ]
+}

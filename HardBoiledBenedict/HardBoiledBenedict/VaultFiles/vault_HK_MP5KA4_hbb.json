@@ -1,0 +1,127 @@
+{
+  "FileName": "vault_HK_MP5KA4_hbb",
+  "LoadedRoundsInMag": [
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ"
+  ],
+  "LoadedRoundsInChambers": [
+    "FMJ"
+  ],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -3.4,
+  "SpeedForward": 3.4,
+  "SpringStiffness": 130.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 29.0,
+      "ModeType": "Safe",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": -30.0,
+      "ModeType": "Burst",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": -114.0,
+      "ModeType": "FullAuto",
+      "BurstAmount": 3
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "MP5KA4",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False",
+        "HammerState": "Cocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "MagazineMp530rnd",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.14000003
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.190808922,
+        "z": 0.9816272
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.9816272,
+        "z": -0.190808922
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": false,
+      "IsMagazine": true,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    }
+  ]
+}

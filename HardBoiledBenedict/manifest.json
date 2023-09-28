@@ -1,0 +1,23 @@
+﻿{
+  "guid": "h3vr.tnhtweaker.hardboiledbenedict",
+  "version": "1.0.0",
+  "require": "0.4.3",
+  "dependencies": {
+      "h3vr.tnhtweaker.deli": "1.7.7"
+  },
+  "name": "Hard Boiled Benedict",
+  "description": "\"Give the guy a gun and he's Superman, give him two and he's God.\"\nBased on John Woo's Hard Boiled. Spawnlocking or Limited Ammo is fine. Watch out for Mad Dog!",
+  "source_url": "",
+  "authors": [ 
+    "O-Deka-K"
+  ],
+  "assets": {
+    "patcher": {},
+    "setup": {
+      "HardBoiledBenedict/Sosigs/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
+      "HardBoiledBenedict/VaultFiles/*vault*.json": "h3vr.tnhtweaker.deli:vault_file",
+      "HardBoiledBenedict/": "h3vr.tnhtweaker.deli:character"
+    },
+    "runtime": {}
+  }
+}
