@@ -1,0 +1,81 @@
+{
+  "FileName": "vault_sub_MB500Chopped_hbb",
+  "LoadedRoundsInMag": [
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00"
+  ],
+  "LoadedRoundsInChambers": [
+    "BuckShot00"
+  ],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "MB500Chopped",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False",
+        "HammerState": "Cocked",
+        "SafetyState": "On"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "12GaugeShell00Buckshot",
+      "PosOffset": {
+        "x": 0.08957184,
+        "y": -0.105870977,
+        "z": -0.00358055858
+      },
+      "OrientationForward": {
+        "x": 0.9859742,
+        "y": 0.0,
+        "z": -0.166897908
+      },
+      "OrientationUp": {
+        "x": 0.0524579734,
+        "y": 0.949316,
+        "z": 0.3099149
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    }
+  ]
+}

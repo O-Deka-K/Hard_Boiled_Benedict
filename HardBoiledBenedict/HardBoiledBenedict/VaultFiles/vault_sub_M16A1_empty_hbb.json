@@ -1,0 +1,56 @@
+{
+  "FileName": "vault_sub_M16A1_empty_hbb",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -5.0,
+  "SpeedForward": 4.0,
+  "SpringStiffness": 200.0,
+  "OverrideFireSelectors": true,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Safe",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": -90.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "M16A1",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False",
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    }
+  ]
+}

@@ -338,10 +338,9 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "vault_AK47_empty_hbb",
           "vault_AK74N_empty_hbb",
           "vault_AKM_empty_hbb",
-          "vault_AKMSU_empty_hbb"
+          "vault_AKS74U_empty_hbb"
         ],
         "Eras": [],
         "Sets": [],

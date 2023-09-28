@@ -1,0 +1,85 @@
+{
+  "FileName": "vault_sub_MB590A1_hbb",
+  "LoadedRoundsInMag": [
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00",
+    "BuckShot00"
+  ],
+  "LoadedRoundsInChambers": [
+    "BuckShot00"
+  ],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "MB590A1",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False",
+        "HammerState": "Cocked",
+        "SafetyState": "Off"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "12GaugeShell00Buckshot",
+      "PosOffset": {
+        "x": -0.343078375,
+        "y": -0.109197959,
+        "z": 0.186442047
+      },
+      "OrientationForward": {
+        "x": 0.9999899,
+        "y": 0.0,
+        "z": -0.00448676944
+      },
+      "OrientationUp": {
+        "x": 0.003328681,
+        "y": 0.6696424,
+        "z": 0.742676258
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    }
+  ]
+}
