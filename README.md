@@ -15,6 +15,12 @@ And watch out for Mad Dog!
   - A knife
   - A lighter
   - Your wits
+- Weapon pools:
+  - Revolvers
+  - DUAL semi-auto pistols
+  - Tube-fed shotguns
+  - Submachine guns
+  - AR-15 rifles (limited to single shot)
 - Sosigs can drop loaded guns (not just Sosigguns) and powerups.
   - Look for the infinite ammo powerup and go to town with guns akimbo!
 - Pistol-caliber guns are all 9x19mm, except for revolvers and some rare drops.
@@ -75,6 +81,7 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
 
 ### [1.0.2] - 2023-09-29
 
-- Fixed Mad Dog dropping 2 of the same rare instead of 1
+- Increased the number of supply points in Round 5 to 3, so that you can always get rifles
+- Fixed Mad Dog dropping 2 of the each rare instead of 1
 - Added GitHub URL to manifest
 - Fixed release dates in changelog

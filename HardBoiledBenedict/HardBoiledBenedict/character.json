@@ -2800,8 +2800,8 @@
     },
     {
       "NumOverrideTokensForHold": 5,
-      "MinSupplyPoints": 2,
-      "MaxSupplyPoints": 2,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
       "MinConstructors": 1,
       "MaxConstructors": 1,
       "MinPanels": 1,
