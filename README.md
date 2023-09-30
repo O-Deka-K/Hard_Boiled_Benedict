@@ -72,3 +72,9 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
 - Added backup vanilla guns in case ModulAR and ModulShotguns are missing
   - You can still get the vanilla shotguns even if you have ModulShotguns installed, but they're very rare
 - Added another rare drop for Mad Dog in Endless mode
+
+### [1.0.2] - 2023-09-29
+
+- Fixed Mad Dog dropping 2 of the same rare instead of 1
+- Added GitHub URL to manifest
+- Fixed release dates in changelog

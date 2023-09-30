@@ -1,13 +1,13 @@
 ﻿{
   "guid": "h3vr.tnhtweaker.hardboiledbenedict",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "require": "0.4.3",
   "dependencies": {
       "h3vr.tnhtweaker.deli": "1.7.7"
   },
   "name": "Hard Boiled Benedict",
   "description": "\"Give the guy a gun and he's Superman, give him two and he's God.\"\nBased on John Woo's Hard Boiled. Spawnlocking or Limited Ammo is fine. Watch out for Mad Dog!",
-  "source_url": "",
+  "source_url": "https://github.com/O-Deka-K/Hard_Boiled_Benedict",
   "authors": [ 
     "O-Deka-K"
   ],
