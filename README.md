@@ -79,9 +79,14 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
   - You can still get the vanilla shotguns even if you have ModulShotguns installed, but they're very rare
 - Added another rare drop for Mad Dog in Endless mode
 
-### [1.0.2] - 2023-09-29
+### [1.0.2] - 2023-09-30
 
 - Increased the number of supply points in Round 5 to 3, so that you can always get rifles
-- Fixed Mad Dog dropping 2 of the each rare instead of 1
-- Added GitHub URL to manifest
+- Fixed Mad Dog dropping 2 of each rare instead of 1
+- Added GitHub URL to source_url in Deli manifest
 - Fixed release dates in changelog
+
+### [1.0.3] - 2023-10-01
+
+- Added rear iron sight to MB590A1
+- Added GitHub URL to manifest to website_url in mod manifest

@@ -1,18 +1,7 @@
 {
-  "FileName": "vault_sub_MB590A1_hbb",
-  "LoadedRoundsInMag": [
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00"
-  ],
-  "LoadedRoundsInChambers": [
-    "BuckShot00"
-  ],
+  "FileName": "vault_sub_MB590A1_empty_hbb",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
   "SavedFlags": [],
   "OverrideFireRate": false,
   "SpeedRearward": 0.0,
@@ -48,8 +37,8 @@
         "IsKinematicLocked": "False",
         "IsPickupLocked": "False",
         "QuickBeltSpecialStateEngaged": "False",
-        "HammerState": "Cocked",
-        "SafetyState": "Off"
+        "HammerState": "Uncocked",
+        "SafetyState": "On"
       }
     },
     {
