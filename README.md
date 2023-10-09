@@ -58,10 +58,10 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
 
 ## Credits
 
-- devyndamonster - For TNH Tweaker and [PMC Pete](https://h3vr.thunderstore.io/package/devyndamonster/PMCPete/). Bosses and weapon drops were inspired by PMC Pete.
-- sirpotatos - For [John Wurst](https://h3vr.thunderstore.io/package/sirpotatos/John_Wurst/). Used the JSON files as a template.
+- [devyndamonster](https://h3vr.thunderstore.io/package/devyndamonster/) - For TNH Tweaker and [PMC Pete](https://h3vr.thunderstore.io/package/devyndamonster/PMCPete/). Bosses and weapon drops were inspired by PMC Pete.
+- [sirpotatos](https://h3vr.thunderstore.io/package/sirpotatos/) - For [John Wurst](https://h3vr.thunderstore.io/package/sirpotatos/John_Wurst/). Used the JSON files as a template.
 - [Internet Movie Firearms Database](https://www.imfdb.org/) - Used this as reference for weapon pools.
-- Meat_banono and Potatoes - For awesome mods that help realize this character.
+- [Meat_banono](https://h3vr.thunderstore.io/package/Meat_banono/) and [Potatoes](https://h3vr.thunderstore.io/package/Potatoes/) - For awesome mods that help realize this character.
 
 ## Changelog
 
@@ -86,7 +86,10 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
 - Added GitHub URL to source_url in Deli manifest
 - Fixed release dates in changelog
 
-### [1.0.3] - 2023-10-01
+### [1.0.3] - 2023-10-08
 
 - Added rear iron sight to MB590A1
 - Added GitHub URL to manifest to website_url in mod manifest
+- Wong's cops can now drop shotguns
+- Harder enemies appear in the last stage of Hold 5
+- Minor drop rate tweaks

@@ -288,8 +288,6 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": true,
         "IDOverride": [
-          "vault_TokarevTT33_hbb",
-          "vault_TokarevTT33_hbb",
           "vault_TokarevTT33_suppressed_hbb"
         ],
         "Eras": [],

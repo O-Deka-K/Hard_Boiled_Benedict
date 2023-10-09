@@ -293,6 +293,7 @@
         "MagazineStoner63AR",
         "hkpmag60"
       ],
+      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -359,50 +360,6 @@
       "RoundWhitelist": []
     },
     {
-      "FirearmID": "ModulAKMDupe",
-      "MagazineBlacklist": [
-        "MagazineAKMDrum",
-        "MagazineBanana",
-        "MagazineRK95TP",
-        "MagazineRPK",
-        "MagazineRPK40",
-        "MagazineRPKBakelite",
-        "MagazineX47",
-        "NWAK15Mag",
-        "NWAK48Magazine",
-        "NWPinAKMag",
-        "NWSingle762",
-        "ftw.mag.AirburstDualMags"
-      ],
-      "MagazineWhitelist": [],
-      "ClipBlacklist": [],
-      "ClipWhitelist": [],
-      "RoundBlacklist": [],
-      "RoundWhitelist": []
-    },
-    {
-      "FirearmID": "ModulAK104Dupe",
-      "MagazineBlacklist": [
-        "MagazineAKMDrum",
-        "MagazineBanana",
-        "MagazineRK95TP",
-        "MagazineRPK",
-        "MagazineRPK40",
-        "MagazineRPKBakelite",
-        "MagazineX47",
-        "NWAK15Mag",
-        "NWAK48Magazine",
-        "NWPinAKMag",
-        "NWSingle762",
-        "ftw.mag.AirburstDualMags"
-      ],
-      "MagazineWhitelist": [],
-      "ClipBlacklist": [],
-      "ClipWhitelist": [],
-      "RoundBlacklist": [],
-      "RoundWhitelist": []
-    },
-    {
       "FirearmID": "AK74N",
       "MagazineBlacklist": [
         "FSCE.AK12DUALMAG",
@@ -429,31 +386,6 @@
     },
     {
       "FirearmID": "AKS74U",
-      "MagazineBlacklist": [
-        "FSCE.AK12DUALMAG",
-        "MagAN94",
-        "Magazine6L18",
-        "Magazine6L26",
-        "Magazine6L31",
-        "MagazineAK12",
-        "MagazineAK12mag",
-        "MagazineAK74Drum",
-        "MagazineBorderGreen",
-        "MagazineRPK16Drum",
-        "NWAK12Mag",
-        "NWAK12MagM",
-        "NWAK12MagW",
-        "NWAKDrum",
-        "NWSingle545"
-      ],
-      "MagazineWhitelist": [],
-      "ClipBlacklist": [],
-      "ClipWhitelist": [],
-      "RoundBlacklist": [],
-      "RoundWhitelist": []
-    },
-    {
-      "FirearmID": "ModulAK74NDupe",
       "MagazineBlacklist": [
         "FSCE.AK12DUALMAG",
         "MagAN94",
@@ -2857,14 +2789,14 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "sosig_wong_hospital_cop_hbb"
+            "sosig_wong_hospital_runner_hbb"
           ],
-          "LeaderType": "sosig_wong_hospital_runner_hbb",
+          "LeaderType": "sosig_wong_hospital_cop_hbb",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 6,
           "MaxDirections": 3,
-          "SpawnCadence": 10.0,
+          "SpawnCadence": 15.0,
           "ScanTime": 40.0,
           "WarmupTime": 7.0,
           "IFFUsed": 1,
@@ -2881,9 +2813,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "sosig_wong_hospital_runner_hbb"
+            "sosig_wong_hospital_cop_hbb"
           ],
-          "LeaderType": "sosig_wong_hospital_runner_hbb",
+          "LeaderType": "sosig_wong_hospital_cop_hbb",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 6,

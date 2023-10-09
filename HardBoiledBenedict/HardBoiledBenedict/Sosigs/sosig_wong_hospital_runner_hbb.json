@@ -324,7 +324,7 @@
       },
       {
         "Category": "Uncategorized",
-        "Rarity": 1.0,
+        "Rarity": 2.0,
         "RequiredQuest": "",
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": 0,
@@ -362,7 +362,7 @@
       },
       {
         "Category": "Uncategorized",
-        "Rarity": 3.0,
+        "Rarity": 2.0,
         "RequiredQuest": "",
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": 0,
