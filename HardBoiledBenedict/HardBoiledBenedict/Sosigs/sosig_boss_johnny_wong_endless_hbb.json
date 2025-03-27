@@ -204,12 +204,20 @@
       ],
       "Chance_Headwear": 1.0,
       "ForceWearAllHead": false,
-      "Eyewear": [],
-      "Chance_Eyewear": 0.0,
+      "Eyewear": [
+        "SosigSunglassesDudeColorset1",
+        "SosigSunglassesDudeColorset2",
+        "SosigSunglassesDudeColorset3",
+        "SosigSunglassesDudeColorset4",
+        "SosigSunglassesDudeColorset5",
+        "SosigSunglassesDudeColorset6",
+        "SosigSunglassesDudeColorset7",
+        "SosigSunglassesDudeColorset8"
+      ],
+      "Chance_Eyewear": 1.0,
       "ForceWearAllEye": false,
       "Facewear": [
-        "Sosig_MF2_Blue_DM_beard",
-        "Sosig_MF2_Red_DM_beard"
+        "SosigCasualSharpBeard"
       ],
       "Chance_Facewear": 1.0,
       "ForceWearAllFace": false,
@@ -304,7 +312,9 @@
           "vault_CZ75Shadow_hbb",
           "vault_Glock17_hbb",
           "vault_BerettaM9_hbb",
-          "vault_BerettaM92fs_hbb"
+          "vault_BerettaM92fs_hbb",
+          "vault_BerettaM9A1_hbb",
+          "vault_BerettaM9A3_hbb"
         ],
         "Eras": [],
         "Sets": [],

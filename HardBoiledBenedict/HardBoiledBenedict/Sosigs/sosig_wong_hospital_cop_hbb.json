@@ -207,17 +207,17 @@
       "Chance_Eyewear": 0.0,
       "ForceWearAllEye": false,
       "Facewear": [
-        "SosigAccessory_Tactical_WelderMask_Swat"
+        "OperatorGasmaskBlack"
       ],
       "Chance_Facewear": 1.0,
       "ForceWearAllFace": false,
       "Torsowear": [
-        "SosigAccessory_Tactical_LightArmour_Swat"
+        "SosigAccessory_Tactical_MediumArmour_Swat"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": true,
       "Pantswear": [
-        "Sosigaccesory_ww2_pants_grey"
+        "OperatorLightAbdoBlack"
       ],
       "Chance_Pantswear": 1.0,
       "ForceWearAllPants": true,
@@ -298,6 +298,8 @@
           "vault_Glock17_hbb",
           "vault_BerettaM9_hbb",
           "vault_BerettaM92fs_hbb",
+          "vault_BerettaM9A1_hbb",
+          "vault_BerettaM9A3_hbb",
           "vault_TokarevTT33_hbb"
         ],
         "Eras": [],

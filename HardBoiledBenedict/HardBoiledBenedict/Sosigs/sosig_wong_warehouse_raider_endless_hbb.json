@@ -198,11 +198,16 @@
   ],
   "OutfitConfigs": [
     {
-      "Headwear": [],
-      "Chance_Headwear": 0.0,
+      "Headwear": [
+        "SosigAccessoryCommonMotorcycleHelmet"
+      ],
+      "Chance_Headwear": 0.5,
       "ForceWearAllHead": false,
-      "Eyewear": [],
-      "Chance_Eyewear": 0.0,
+      "Eyewear": [
+        "OperatorHelmetLightEyeProBlack",
+        "OperatorHelmetMediumEyeProBlack"
+      ],
+      "Chance_Eyewear": 0.5,
       "ForceWearAllEye": false,
       "Facewear": [],
       "Chance_Facewear": 0.0,
@@ -216,7 +221,13 @@
         "SosigCasualHoodieHoodDownOlive",
         "SosigCasualHoodieHoodDownPeach",
         "SosigCasualHoodieHoodDownRed",
-        "SosigCasualHoodieHoodDownYellow"
+        "SosigCasualHoodieHoodDownYellow",
+        "SosigLeatherJacketClassic",
+        "SosigLeatherJacketClassic",
+        "SosigLeatherJacketClassic",
+        "SosigLeatherJacketModern",
+        "SosigLeatherJacketModern",
+        "SosigLeatherJacketModern"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": false,
@@ -297,7 +308,9 @@
           "vault_CZ75Shadow_hbb",
           "vault_Glock17_hbb",
           "vault_BerettaM9_hbb",
-          "vault_BerettaM92fs_hbb"
+          "vault_BerettaM92fs_hbb",
+          "vault_BerettaM9A1_hbb",
+          "vault_BerettaM9A3_hbb"
         ],
         "Eras": [],
         "Sets": [],

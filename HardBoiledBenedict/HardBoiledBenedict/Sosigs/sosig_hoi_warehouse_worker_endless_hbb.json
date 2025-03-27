@@ -199,9 +199,44 @@
   "OutfitConfigs": [
     {
       "Headwear": [
-        "Sosig_MF2_Blue_EN_helmet",
-        "Sosig_MF2_Red_EN_helmet"
-
+        "SosigConstructionHelmetBlue",
+        "SosigConstructionHelmetOrange",
+        "SosigConstructionHelmetRed",
+        "SosigConstructionHelmetYellow"
+      ],
+      "Chance_Headwear": 1.0,
+      "ForceWearAllHead": false,
+      "Eyewear": [],
+      "Chance_Eyewear": 0.0,
+      "ForceWearAllEye": false,
+      "Facewear": [],
+      "Chance_Facewear": 0.0,
+      "ForceWearAllFace": false,
+      "Torsowear": [
+        "SosigAccessory_MountainMeat_Workshirt_White"
+      ],
+      "Chance_Torsowear": 1.0,
+      "ForceWearAllTorso": false,
+      "Pantswear": [
+        "SosigCGYogapantsAbdoWhite"
+      ],
+      "Chance_Pantswear": 1.0,
+      "ForceWearAllPants": false,
+      "Pantswear_Lower": [
+        "SosigCGYogapantsLegWhite"
+      ],
+      "Chance_Pantswear_Lower": 1.0,
+      "ForceWearAllPantsLower": false,
+      "Backpacks": [],
+      "Chance_Backpacks": 0.0,
+      "ForceWearAllBackpacks": false
+    },
+    {
+      "Headwear": [
+        "SosigConstructionHelmetBlue",
+        "SosigConstructionHelmetOrange",
+        "SosigConstructionHelmetRed",
+        "SosigConstructionHelmetYellow"
       ],
       "Chance_Headwear": 0.5,
       "ForceWearAllHead": false,
@@ -212,17 +247,17 @@
       "Chance_Facewear": 0.0,
       "ForceWearAllFace": false,
       "Torsowear": [
-        "SosigCasualOverallsTorsoTan"
+        "SosigAccessory_MountainMeat_Workshirt_Grey"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": false,
       "Pantswear": [
-        "SosigCasualOverallsAbdoTan"
+        "SosigProfessionalSuitPantUpperLightGrey"
       ],
       "Chance_Pantswear": 1.0,
       "ForceWearAllPants": false,
       "Pantswear_Lower": [
-        "SosigCasualOverallsLegTan"
+        "SosigProfessionalSuitPantLowerLightGrey"
       ],
       "Chance_Pantswear_Lower": 1.0,
       "ForceWearAllPantsLower": false,
@@ -292,7 +327,9 @@
           "vault_CZ75Shadow_hbb",
           "vault_Glock17_hbb",
           "vault_BerettaM9_hbb",
-          "vault_BerettaM92fs_hbb"
+          "vault_BerettaM92fs_hbb",
+          "vault_BerettaM9A1_hbb",
+          "vault_BerettaM9A3_hbb"
         ],
         "Eras": [],
         "Sets": [],

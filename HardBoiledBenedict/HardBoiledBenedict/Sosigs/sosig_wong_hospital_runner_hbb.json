@@ -214,23 +214,25 @@
       "Chance_Facewear": 1.0,
       "ForceWearAllFace": false,
       "Torsowear": [
-        "SosigAccessory_MountainMeat_Workshirt_Grey",
         "SosigAccessory_MountainMeat_Workshirt_White"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": false,
       "Pantswear": [
-        "SosigAccessory_MountainMeat_Pants_Grey"
+        "SosigCGYogapantsAbdoWhite"
       ],
       "Chance_Pantswear": 1.0,
       "ForceWearAllPants": false,
-      "Pantswear_Lower": [],
-      "Chance_Pantswear_Lower": 0.0,
+      "Pantswear_Lower": [
+        "SosigCGYogapantsLegWhite"
+      ],
+      "Chance_Pantswear_Lower": 1.0,
       "ForceWearAllPantsLower": false,
       "Backpacks": [
-        "Sosigaccesory_ww2_backpack_brown",
-        "Sosigaccesory_ww2_backpack_green",
-        "Sosigaccesory_ww2_backpack_tan"
+        "SosigAccessory_Tactical_Backpack_Swat",
+        "SosigAccessory_Tactical_Backpack_Winter",
+        "SosigAccessory_Tactical_FuelTank_Swat",
+        "SosigAccessory_Tactical_FuelTank_Winter"
       ],
       "Chance_Backpacks": 1.0,
       "ForceWearAllBackpacks": false
@@ -302,6 +304,8 @@
           "vault_Glock17_hbb",
           "vault_BerettaM9_hbb",
           "vault_BerettaM92fs_hbb",
+          "vault_BerettaM9A1_hbb",
+          "vault_BerettaM9A3_hbb",
           "vault_TokarevTT33_hbb"
         ],
         "Eras": [],

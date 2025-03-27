@@ -8,6 +8,18 @@ Designed for both Spawnlocking and Limited Ammo. IMO, they are completely differ
 
 And watch out for Mad Dog!
 
+## Requirements
+
+- [TNH Tweaker](https://h3vr.thunderstore.io/package/devyndamonster/TakeAndHoldTweaker/)
+
+## Optional
+
+These are HIGHLY recommended if you want guns that are more accurate to the movie.
+
+- [Meats ModulAR](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAR/)
+- [Meats ModulShotguns](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulShotguns/)
+- [Potatoes Revolvers](https://h3vr.thunderstore.io/package/Potatoes/Potatoes_Revolvers/)
+
 ## Features
 
 - Starting equipment:
@@ -44,17 +56,11 @@ Each round has its own boss based on characters from the movie:
 
 Also, each boss has special weapons that have a rare chance of dropping.
 
-## Requirements
+## Video Highlights
 
-- [TNH Tweaker](https://h3vr.thunderstore.io/package/devyndamonster/TakeAndHoldTweaker/)
+[![H3VR Take & Hold | Hard Boiled Benedict | TNH Tell | Highlights](https://i.imgur.com/VeVkDt9.png)](https://youtu.be/JVZ--pjFZLU)
 
-## Optional
-
-These are HIGHLY recommended if you want guns that are more accurate to the movie.
-
-- [Meats ModulAR](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAR/)
-- [Meats ModulShotguns](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulShotguns/)
-- [Potatoes Revolvers](https://h3vr.thunderstore.io/package/Potatoes/Potatoes_Revolvers/)
+**Note:** This video shows the old encryptions and Sosig outifts.
 
 ## Credits
 
@@ -62,34 +68,3 @@ These are HIGHLY recommended if you want guns that are more accurate to the movi
 - [sirpotatos](https://h3vr.thunderstore.io/package/sirpotatos/) - For [John Wurst](https://h3vr.thunderstore.io/package/sirpotatos/John_Wurst/). Used the JSON files as a template.
 - [Internet Movie Firearms Database](https://www.imfdb.org/) - Used this as reference for weapon pools.
 - [Meat_banono](https://h3vr.thunderstore.io/package/Meat_banono/) and [Potatoes](https://h3vr.thunderstore.io/package/Potatoes/) - For awesome mods that help realize this character.
-
-## Changelog
-
-### [1.0.0] - 2023-09-26
-
-- First release
-
-### [1.0.1] - 2023-09-27
-
-- Added IMFDB to credits
-- Removed ModulAK dependency and replaced with vanilla AKs
-- Gun mods have been made optional
-  - Some people have trouble downloading large mods like ModulAR
-- Added backup vanilla guns in case ModulAR and ModulShotguns are missing
-  - You can still get the vanilla shotguns even if you have ModulShotguns installed, but they're very rare
-- Added another rare drop for Mad Dog in Endless mode
-
-### [1.0.2] - 2023-09-30
-
-- Increased the number of supply points in Round 5 to 3, so that you can always get rifles
-- Fixed Mad Dog dropping 2 of each rare instead of 1
-- Added GitHub URL to source_url in Deli manifest
-- Fixed release dates in changelog
-
-### [1.0.3] - 2023-10-08
-
-- Added rear iron sight to MB590A1
-- Added GitHub URL to manifest to website_url in mod manifest
-- Wong's cops can now drop shotguns
-- Harder enemies appear in the last stage of Hold 5
-- Minor drop rate tweaks

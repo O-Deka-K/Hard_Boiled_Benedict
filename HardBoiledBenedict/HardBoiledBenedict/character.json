@@ -11,7 +11,7 @@
   "HasSecondaryWeapon": true,
   "HasTertiaryWeapon": true,
   "HasPrimaryItem": true,
-  "HasSecondaryItem": false,
+  "HasSecondaryItem": true,
   "HasTertiaryItem": false,
   "HasShield": false,
   "ValidAmmoEras": [
@@ -114,11 +114,34 @@
   ],
   "MagazineBlacklist": [
     {
-      "FirearmID": "CobrayM11_9",
-      "MagazineBlacklist": [
-        "MagazineCobrayM119_72rnd"
+      "FirearmID": "BrowningHP",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineBrowningHP",
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "CobrayM11_9",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineCobrayM119_16rnd",
+        "MagazineCobrayM119_32rnd",
+      ],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "CZ75Shadow",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineCZ75Shadow",
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -126,11 +149,11 @@
     },
     {
       "FirearmID": "DesertEagle50",
-      "MagazineBlacklist": [
-        "Gun.ftw.DeagleMagExt2",
-        "Gun.ftw.DeagleMagExt3"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineDeagle50",
+        "MagazineDeagle50Ext"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -138,22 +161,29 @@
     },
     {
       "FirearmID": "G17",
-      "MagazineBlacklist": [
-        "Glock19Mag.Muzz",
-        "MagazineG17Drum",
-        "MagazineG19_19rnd",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineG17Standard",
+        "MagazineG17Custom",
+        "MagazineG18Standard",
         "MagazineG19_33rnd",
-        "MagazineMax9",
-        "ftw.mag.v9blk",
-        "ftw.mag.v9gry",
-        "ftw.mag.v9tan",
-        "ftw.mag.v9whi",
-        "gpmag",
-        "magazine_TaranTacticalG34.tt",
-        "mwG19S",
         "mwG19X"
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "G19",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineG17Standard",
+        "MagazineG17Custom",
+        "MagazineG18Standard",
+        "MagazineG19_33rnd",
+        "mwG19X"
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -161,11 +191,12 @@
     },
     {
       "FirearmID": "ClericM9",
-      "MagazineBlacklist": [
-        "MagazineM9A3",
-        "MagazinePX4"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineM93R",
+        "MagazineM9A1",
+        "MagazineCX4"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -173,12 +204,38 @@
     },
     {
       "FirearmID": "M9",
-      "MagazineBlacklist": [
-        "MagazineM9A3",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
         "MagazineM93R",
-        "MagazinePX4"
+        "MagazineM9A3",
+        "MagazineCX4"
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "M9A1",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineM93R",
+        "MagazineM9A3",
+        "MagazineCX4"
+      ],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "M9A3",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineM93R",
+        "MagazineM9A1",
+        "MagazineCX4"
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -186,12 +243,12 @@
     },
     {
       "FirearmID": "M92fs",
-      "MagazineBlacklist": [
-        "MagazineM9A3",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
         "MagazineM93R",
-        "MagazinePX4"
+        "MagazineM9A3",
+        "MagazineCX4"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -199,12 +256,35 @@
     },
     {
       "FirearmID": "M93R",
-      "MagazineBlacklist": [
-        "MagazineM9A1",
-        "MagazineM9A3",
-        "MagazinePX4"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineM93R",
+        "MagazineCX4"
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "PX4Storm",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineM93R",
+        "MagazinePX4",
+        "MagazineCX4"
+      ],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "Mac11",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMac11"
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -212,10 +292,21 @@
     },
     {
       "FirearmID": "Tec9",
-      "MagazineBlacklist": [
-        "MagazineTec9Illegal"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineTec9"
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "TT33",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineTT33"
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -223,38 +314,159 @@
     },
     {
       "FirearmID": "M16A1",
-      "MagazineBlacklist": [
-        "ARMagPMAG40FDE",
-        "ARMagSF100",
-        "ARMagSF60",
-        "ARMagStrikeMag",
-        "FSCE.STANAG25RND",
-        "Kilo60",
-        "KiloDrum",
-        "MagazineAK5c",
-        "MagazineBren806",
-        "MagazineH416D60",
-        "MagazineH416PMAG",
-        "MagazineStanag100rnd",
-        "MagazineStanag5rnd",
-        "MagazineStanag60rnd",
-        "MagazineStanagDrum",
-        "MagazineStanagPDDrum60rnd",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineStanagCanadian30rnd",
+        "MagazineStanagEMWindow30rnd",
+        "MagazineStanagHBoat10rnd",
+        "MagazineStanagHBoat20rnd",
+        "MagazineStanagHBoat30rnd",
+        "MagazineStanagPM10rnd",
+        "MagazineStanagPM10rndFDE",
+        "MagazineStanagPM20rnd",
+        "MagazineStanagPM20rndFDE",
+        "MagazineStanagPM30rnd",
+        "MagazineStanagPM30rndFakelite",
+        "MagazineStanagPM30rndFDE",
         "MagazineStanagPM40rnd",
         "MagazineStanagPM40rndBanana",
         "MagazineStanagPM40rndFDE",
-        "MagazineStanagSM100rnd",
-        "MagazineStanagSM60rnd",
-        "MagazineStanagSMDrum100rnd",
-        "MagazineStanagSMDrum150rnd",
-        "MagazineStanagUSGI25rnd",
+        "MagazineStanagPMWindow30rnd",
+        "MagazineStanagPMWindow30rndFDE",
+        "MagazineStanagUSGI10rnd",
+        "MagazineStanagUSGI20rnd",
+        "MagazineStanagUSGI20rndWaffle",
+        "MagazineStanagUSGI30rnd",
+        "MagazineStanagUSGI30rndCustom",
         "MagazineStanagUSGI40rnd",
-        "MagazineStanagUSGI55rnd",
-        "MagazineStanagUSGI5rnd",
-        "MagazineStoner63AR",
-        "hkpmag60"
+        "ARMagBattlemag",
+        "ARMagEMAGBlk",
+        "ARMagEMAGFDE",
+        "ARMagHKGen2",
+        "ARMagHKGen2FDE",
+        "ARMagLancerBananaTrans",
+        "ARMagLancerBlk",
+        "ARMagLancerBlkTrans",
+        "ARMagLancerBluTrans",
+        "ARMagLancerDeepBluTrans",
+        "ARMagLancerFDE",
+        "ARMagLancerFDETrans",
+        "ARMagLancerGrnTrans",
+        "ARMagLancerPurple",
+        "ARMagLancerRedTrans",
+        "ARMagLancerSafetyTrans",
+        "ARMagLancerTrans",
+        "ARMagMeatsPMAGylw",
+        "ARMagMeatsStanagFDE",
+        "ARMagMelonMag",
+        "ARMagPMAG",
+        "ARMagPMAG10",
+        "ARMagPMAG20",
+        "ARMagPMAG40",
+        "ARMagPMAG40FDE",
+        "ARMagPMAGDIKPAT",
+        "ARMagPMAGFDE",
+        "ARMagPMAGGry",
+        "ARMagPMAGNIKPAT",
+        "ARMagPMAGWindow",
+        "ARMagPMAGWindowDIKPAT",
+        "ARMagPMAGWindowFDE",
+        "ARMagPMAGWindowGry",
+        "ARMagPMAGWindowNIKPAT",
+        "ARMagPMAGWindowOD",
+        "ARMagStanag",
+        "ARMagStanag10",
+        "ARMagStanag20",
+        "ARMagStanagBrn",
+        "ARMagStanagGry",
+        "ARMagStanagylw",
+        "MagazineHexBlk",
+        "MagazineHexCANPAT",
+        "MagazineHexFDE",
+        "MagazineHexGry",
+        "MagazineHexMELPAT",
+        "MagazineHexOD"
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "M4Carbine",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineStanagCanadian30rnd",
+        "MagazineStanagEMWindow30rnd",
+        "MagazineStanagHBoat10rnd",
+        "MagazineStanagHBoat20rnd",
+        "MagazineStanagHBoat30rnd",
+        "MagazineStanagPM10rnd",
+        "MagazineStanagPM10rndFDE",
+        "MagazineStanagPM20rnd",
+        "MagazineStanagPM20rndFDE",
+        "MagazineStanagPM30rnd",
+        "MagazineStanagPM30rndFakelite",
+        "MagazineStanagPM30rndFDE",
+        "MagazineStanagPM40rnd",
+        "MagazineStanagPM40rndBanana",
+        "MagazineStanagPM40rndFDE",
+        "MagazineStanagPMWindow30rnd",
+        "MagazineStanagPMWindow30rndFDE",
+        "MagazineStanagUSGI10rnd",
+        "MagazineStanagUSGI20rnd",
+        "MagazineStanagUSGI20rndWaffle",
+        "MagazineStanagUSGI30rnd",
+        "MagazineStanagUSGI30rndCustom",
+        "MagazineStanagUSGI40rnd",
+        "ARMagBattlemag",
+        "ARMagEMAGBlk",
+        "ARMagEMAGFDE",
+        "ARMagHKGen2",
+        "ARMagHKGen2FDE",
+        "ARMagLancerBananaTrans",
+        "ARMagLancerBlk",
+        "ARMagLancerBlkTrans",
+        "ARMagLancerBluTrans",
+        "ARMagLancerDeepBluTrans",
+        "ARMagLancerFDE",
+        "ARMagLancerFDETrans",
+        "ARMagLancerGrnTrans",
+        "ARMagLancerPurple",
+        "ARMagLancerRedTrans",
+        "ARMagLancerSafetyTrans",
+        "ARMagLancerTrans",
+        "ARMagMeatsPMAGylw",
+        "ARMagMeatsStanagFDE",
+        "ARMagMelonMag",
+        "ARMagPMAG",
+        "ARMagPMAG10",
+        "ARMagPMAG20",
+        "ARMagPMAG40",
+        "ARMagPMAG40FDE",
+        "ARMagPMAGDIKPAT",
+        "ARMagPMAGFDE",
+        "ARMagPMAGGry",
+        "ARMagPMAGNIKPAT",
+        "ARMagPMAGWindow",
+        "ARMagPMAGWindowDIKPAT",
+        "ARMagPMAGWindowFDE",
+        "ARMagPMAGWindowGry",
+        "ARMagPMAGWindowNIKPAT",
+        "ARMagPMAGWindowOD",
+        "ARMagStanag",
+        "ARMagStanag10",
+        "ARMagStanag20",
+        "ARMagStanagBrn",
+        "ARMagStanagGry",
+        "ARMagStanagylw",
+        "MagazineHexBlk",
+        "MagazineHexCANPAT",
+        "MagazineHexFDE",
+        "MagazineHexGry",
+        "MagazineHexMELPAT",
+        "MagazineHexOD"
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -262,38 +474,79 @@
     },
     {
       "FirearmID": "ModulARLowerSnakedupe",
-      "MagazineBlacklist": [
-        "ARMagPMAG40FDE",
-        "ARMagSF100",
-        "ARMagSF60",
-        "ARMagStrikeMag",
-        "FSCE.STANAG25RND",
-        "Kilo60",
-        "KiloDrum",
-        "MagazineAK5c",
-        "MagazineBren806",
-        "MagazineH416D60",
-        "MagazineH416PMAG",
-        "MagazineStanag100rnd",
-        "MagazineStanag5rnd",
-        "MagazineStanag60rnd",
-        "MagazineStanagDrum",
-        "MagazineStanagPDDrum60rnd",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineStanagCanadian30rnd",
+        "MagazineStanagEMWindow30rnd",
+        "MagazineStanagHBoat10rnd",
+        "MagazineStanagHBoat20rnd",
+        "MagazineStanagHBoat30rnd",
+        "MagazineStanagPM10rnd",
+        "MagazineStanagPM10rndFDE",
+        "MagazineStanagPM20rnd",
+        "MagazineStanagPM20rndFDE",
+        "MagazineStanagPM30rnd",
+        "MagazineStanagPM30rndFakelite",
+        "MagazineStanagPM30rndFDE",
         "MagazineStanagPM40rnd",
         "MagazineStanagPM40rndBanana",
         "MagazineStanagPM40rndFDE",
-        "MagazineStanagSM100rnd",
-        "MagazineStanagSM60rnd",
-        "MagazineStanagSMDrum100rnd",
-        "MagazineStanagSMDrum150rnd",
-        "MagazineStanagUSGI25rnd",
+        "MagazineStanagPMWindow30rnd",
+        "MagazineStanagPMWindow30rndFDE",
+        "MagazineStanagUSGI10rnd",
+        "MagazineStanagUSGI20rnd",
+        "MagazineStanagUSGI20rndWaffle",
+        "MagazineStanagUSGI30rnd",
+        "MagazineStanagUSGI30rndCustom",
         "MagazineStanagUSGI40rnd",
-        "MagazineStanagUSGI55rnd",
-        "MagazineStanagUSGI5rnd",
-        "MagazineStoner63AR",
-        "hkpmag60"
+        "ARMagBattlemag",
+        "ARMagEMAGBlk",
+        "ARMagEMAGFDE",
+        "ARMagHKGen2",
+        "ARMagHKGen2FDE",
+        "ARMagLancerBananaTrans",
+        "ARMagLancerBlk",
+        "ARMagLancerBlkTrans",
+        "ARMagLancerBluTrans",
+        "ARMagLancerDeepBluTrans",
+        "ARMagLancerFDE",
+        "ARMagLancerFDETrans",
+        "ARMagLancerGrnTrans",
+        "ARMagLancerPurple",
+        "ARMagLancerRedTrans",
+        "ARMagLancerSafetyTrans",
+        "ARMagLancerTrans",
+        "ARMagMeatsPMAGylw",
+        "ARMagMeatsStanagFDE",
+        "ARMagMelonMag",
+        "ARMagPMAG",
+        "ARMagPMAG10",
+        "ARMagPMAG20",
+        "ARMagPMAG40",
+        "ARMagPMAG40FDE",
+        "ARMagPMAGDIKPAT",
+        "ARMagPMAGFDE",
+        "ARMagPMAGGry",
+        "ARMagPMAGNIKPAT",
+        "ARMagPMAGWindow",
+        "ARMagPMAGWindowDIKPAT",
+        "ARMagPMAGWindowFDE",
+        "ARMagPMAGWindowGry",
+        "ARMagPMAGWindowNIKPAT",
+        "ARMagPMAGWindowOD",
+        "ARMagStanag",
+        "ARMagStanag10",
+        "ARMagStanag20",
+        "ARMagStanagBrn",
+        "ARMagStanagGry",
+        "ARMagStanagylw",
+        "MagazineHexBlk",
+        "MagazineHexCANPAT",
+        "MagazineHexFDE",
+        "MagazineHexGry",
+        "MagazineHexMELPAT",
+        "MagazineHexOD"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -301,36 +554,78 @@
     },
     {
       "FirearmID": "ModulM16Lowerdupe",
-      "MagazineBlacklist": [
-        "ARMagPMAG40FDE",
-        "ARMagSF100",
-        "ARMagSF60",
-        "ARMagStrikeMag",
-        "FSCE.STANAG25RND",
-        "Kilo60",
-        "KiloDrum",
-        "MagazineAK5c",
-        "MagazineBren806",
-        "MagazineH416D60",
-        "MagazineH416PMAG",
-        "MagazineStanag100rnd",
-        "MagazineStanag5rnd",
-        "MagazineStanag60rnd",
-        "MagazineStanagDrum",
-        "MagazineStanagPDDrum60rnd",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineStanagCanadian30rnd",
+        "MagazineStanagEMWindow30rnd",
+        "MagazineStanagHBoat10rnd",
+        "MagazineStanagHBoat20rnd",
+        "MagazineStanagHBoat30rnd",
+        "MagazineStanagPM10rnd",
+        "MagazineStanagPM10rndFDE",
+        "MagazineStanagPM20rnd",
+        "MagazineStanagPM20rndFDE",
+        "MagazineStanagPM30rnd",
+        "MagazineStanagPM30rndFakelite",
+        "MagazineStanagPM30rndFDE",
         "MagazineStanagPM40rnd",
         "MagazineStanagPM40rndBanana",
         "MagazineStanagPM40rndFDE",
-        "MagazineStanagSM100rnd",
-        "MagazineStanagSM60rnd",
-        "MagazineStanagSMDrum100rnd",
-        "MagazineStanagSMDrum150rnd",
-        "MagazineStanagUSGI25rnd",
+        "MagazineStanagPMWindow30rnd",
+        "MagazineStanagPMWindow30rndFDE",
+        "MagazineStanagUSGI10rnd",
+        "MagazineStanagUSGI20rnd",
+        "MagazineStanagUSGI20rndWaffle",
+        "MagazineStanagUSGI30rnd",
+        "MagazineStanagUSGI30rndCustom",
         "MagazineStanagUSGI40rnd",
-        "MagazineStanagUSGI55rnd",
-        "MagazineStanagUSGI5rnd",
-        "MagazineStoner63AR",
-        "hkpmag60"
+        "ARMagBattlemag",
+        "ARMagEMAGBlk",
+        "ARMagEMAGFDE",
+        "ARMagHKGen2",
+        "ARMagHKGen2FDE",
+        "ARMagLancerBananaTrans",
+        "ARMagLancerBlk",
+        "ARMagLancerBlkTrans",
+        "ARMagLancerBluTrans",
+        "ARMagLancerDeepBluTrans",
+        "ARMagLancerFDE",
+        "ARMagLancerFDETrans",
+        "ARMagLancerGrnTrans",
+        "ARMagLancerPurple",
+        "ARMagLancerRedTrans",
+        "ARMagLancerSafetyTrans",
+        "ARMagLancerTrans",
+        "ARMagMeatsPMAGylw",
+        "ARMagMeatsStanagFDE",
+        "ARMagMelonMag",
+        "ARMagPMAG",
+        "ARMagPMAG10",
+        "ARMagPMAG20",
+        "ARMagPMAG40",
+        "ARMagPMAG40FDE",
+        "ARMagPMAGDIKPAT",
+        "ARMagPMAGFDE",
+        "ARMagPMAGGry",
+        "ARMagPMAGNIKPAT",
+        "ARMagPMAGWindow",
+        "ARMagPMAGWindowDIKPAT",
+        "ARMagPMAGWindowFDE",
+        "ARMagPMAGWindowGry",
+        "ARMagPMAGWindowNIKPAT",
+        "ARMagPMAGWindowOD",
+        "ARMagStanag",
+        "ARMagStanag10",
+        "ARMagStanag20",
+        "ARMagStanagBrn",
+        "ARMagStanagGry",
+        "ARMagStanagylw",
+        "MagazineHexBlk",
+        "MagazineHexCANPAT",
+        "MagazineHexFDE",
+        "MagazineHexGry",
+        "MagazineHexMELPAT",
+        "MagazineHexOD"
       ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
@@ -339,21 +634,15 @@
     },
     {
       "FirearmID": "AKM",
-      "MagazineBlacklist": [
-        "MagazineAKMDrum",
-        "MagazineBanana",
-        "MagazineRK95TP",
-        "MagazineRPK",
-        "MagazineRPK40",
-        "MagazineRPKBakelite",
-        "MagazineX47",
-        "NWAK15Mag",
-        "NWAK48Magazine",
-        "NWPinAKMag",
-        "NWSingle762",
-        "ftw.mag.AirburstDualMags"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineAKM",
+        "MagazineAKMGold",
+        "MagazineAKMHeirloom",
+        "MagazineAKMTactical10rnd",
+        "MagazineAKMTactical20rnd",
+        "MagazineAKMTactical"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -361,24 +650,14 @@
     },
     {
       "FirearmID": "AK74N",
-      "MagazineBlacklist": [
-        "FSCE.AK12DUALMAG",
-        "MagAN94",
-        "Magazine6L18",
-        "Magazine6L26",
-        "Magazine6L31",
-        "MagazineAK12",
-        "MagazineAK12mag",
-        "MagazineAK74Drum",
-        "MagazineBorderGreen",
-        "MagazineRPK16Drum",
-        "NWAK12Mag",
-        "NWAK12MagM",
-        "NWAK12MagW",
-        "NWAKDrum",
-        "NWSingle545"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineAK74_10rnd",
+        "MagazineAK74_20rnd",
+        "MagazineAK74N",
+        "MagazineAKS74U",
+        "MagazineAKS74U2"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -386,24 +665,42 @@
     },
     {
       "FirearmID": "AKS74U",
-      "MagazineBlacklist": [
-        "FSCE.AK12DUALMAG",
-        "MagAN94",
-        "Magazine6L18",
-        "Magazine6L26",
-        "Magazine6L31",
-        "MagazineAK12",
-        "MagazineAK12mag",
-        "MagazineAK74Drum",
-        "MagazineBorderGreen",
-        "MagazineRPK16Drum",
-        "NWAK12Mag",
-        "NWAK12MagM",
-        "NWAK12MagW",
-        "NWAKDrum",
-        "NWSingle545"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineAK74_10rnd",
+        "MagazineAK74_20rnd",
+        "MagazineAK74N",
+        "MagazineAKS74U",
+        "MagazineAKS74U2"
       ],
-      "MagazineWhitelist": [],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "MP5A2",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMp515rnd",
+        "MagazineMp515rndStraight",
+        "MagazineMp530rnd",
+        "MagazineMp530rndStraight"
+      ],
+      "ClipBlacklist": [],
+      "ClipWhitelist": [],
+      "RoundBlacklist": [],
+      "RoundWhitelist": []
+    },
+    {
+      "FirearmID": "MP5A3",
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMp515rnd",
+        "MagazineMp515rndStraight",
+        "MagazineMp530rnd",
+        "MagazineMp530rndStraight"
+      ],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -411,10 +708,13 @@
     },
     {
       "FirearmID": "MP5K",
-      "MagazineBlacklist": [
-        "MagazineMp5100rnd"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMp515rnd",
+        "MagazineMp515rndStraight",
+        "MagazineMp530rnd",
+        "MagazineMp530rndStraight"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -422,10 +722,13 @@
     },
     {
       "FirearmID": "MP5KA4",
-      "MagazineBlacklist": [
-        "MagazineMp5100rnd"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMp515rnd",
+        "MagazineMp515rndStraight",
+        "MagazineMp530rnd",
+        "MagazineMp530rndStraight"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -433,10 +736,11 @@
     },
     {
       "FirearmID": "MicroUzi",
-      "MagazineBlacklist": [
-        "MagazineUzi72rndDrum"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMicroUzi20rnd",
+        "MagazineMicroUzi32rnd"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -444,10 +748,11 @@
     },
     {
       "FirearmID": "Uzi_Mini",
-      "MagazineBlacklist": [
-        "MagazineUzi72rndDrum"
+      "MagazineBlacklist": [],
+      "MagazineWhitelist": [
+        "MagazineMicroUzi20rnd",
+        "MagazineMicroUzi32rnd"
       ],
-      "MagazineWhitelist": [],
       "ClipBlacklist": [],
       "ClipWhitelist": [],
       "RoundBlacklist": [],
@@ -471,9 +776,7 @@
     "ForceSpawnAllSubPools": false,
     "IDOverride": [],
     "Eras": [],
-    "Sets": [
-      "Real"
-    ],
+    "Sets": [],
     "Sizes": [],
     "Actions": [],
     "Modes": [],
@@ -481,14 +784,10 @@
     "FeedOptions": [],
     "MountsAvailable": [],
     "RoundPowers": [],
-    "Features": [
-      "Reflex"
-    ],
+    "Features": [],
     "MeleeStyles": [],
     "MeleeHandedness": [],
-    "MountTypes": [
-      "Picatinny"
-    ],
+    "MountTypes": [],
     "PowerupTypes": [],
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
@@ -587,16 +886,16 @@
       "Rarity": 1.0,
       "RequiredQuest": null,
       "ItemsToSpawn": 1,
-      "MinAmmoCapacity": 5,
-      "MaxAmmoCapacity": 9,
-      "NumMagsSpawned": 4,
-      "NumClipsSpawned": 4,
-      "NumRoundsSpawned": 18,
+      "MinAmmoCapacity": 0,
+      "MaxAmmoCapacity": 0,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
       "SpawnMagAndClip": false,
       "BespokeAttachmentChance": 0.0,
       "IsCompatibleMagazine": false,
       "AutoPopulateGroup": false,
-      "ForceSpawnAllSubPools": true,
+      "ForceSpawnAllSubPools": false,
       "IDOverride": [
         "FlipzoLighter"
       ],
@@ -621,7 +920,42 @@
     "BackupGroup": null
   },
   "SecondaryItem": {
-    "PrimaryGroup": null,
+    "PrimaryGroup": {
+      "Category": "Uncategorized",
+      "Rarity": 1.0,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": 0,
+      "MaxAmmoCapacity": 0,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.0,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "UtilityFlashlight"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": []
+    },
     "BackupGroup": null
   },
   "TertiaryItem": {
@@ -837,7 +1171,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 7.0,
+            "Rarity": 14.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 17,
@@ -873,7 +1207,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 7.0,
+            "Rarity": 14.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 15,
@@ -887,7 +1221,7 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "M9"
+              "G19"
             ],
             "Eras": [],
             "Sets": [],
@@ -909,7 +1243,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 7.0,
+            "Rarity": 28.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 15,
@@ -923,7 +1257,10 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "M92fs"
+              "M9",
+              "M92fs",
+              "M9A1",
+              "M9A3"
             ],
             "Eras": [],
             "Sets": [],
@@ -945,7 +1282,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 3.0,
+            "Rarity": 6.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 15,
@@ -959,42 +1296,7 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "vault_BerettaM9_suppressed_empty_hbb"
-            ],
-            "Eras": [],
-            "Sets": [],
-            "Sizes": [],
-            "Actions": [],
-            "Modes": [],
-            "ExcludedModes": [],
-            "FeedOptions": [],
-            "MountsAvailable": [],
-            "RoundPowers": [],
-            "Features": [],
-            "MeleeStyles": [],
-            "MeleeHandedness": [],
-            "MountTypes": [],
-            "PowerupTypes": [],
-            "ThrownTypes": [],
-            "ThrownDamageTypes": [],
-            "SubGroups": []
-          },
-          {
-            "Category": "Firearm",
-            "Rarity": 3.0,
-            "RequiredQuest": "",
-            "ItemsToSpawn": 2,
-            "MinAmmoCapacity": 15,
-            "MaxAmmoCapacity": 15,
-            "NumMagsSpawned": 3,
-            "NumClipsSpawned": 3,
-            "NumRoundsSpawned": 18,
-            "SpawnMagAndClip": false,
-            "BespokeAttachmentChance": 0.0,
-            "IsCompatibleMagazine": false,
-            "AutoPopulateGroup": false,
-            "ForceSpawnAllSubPools": false,
-            "IDOverride": [
+              "vault_BerettaM9_suppressed_empty_hbb",
               "vault_BerettaM92fs_suppressed_empty_hbb"
             ],
             "Eras": [],
@@ -1280,7 +1582,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 7.0,
+            "Rarity": 14.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 17,
@@ -1316,7 +1618,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 7.0,
+            "Rarity": 14.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 15,
@@ -1330,7 +1632,7 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "M9"
+              "G19"
             ],
             "Eras": [],
             "Sets": [],
@@ -1352,7 +1654,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 7.0,
+            "Rarity": 28.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 15,
@@ -1366,7 +1668,10 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "M92fs"
+              "M9",
+              "M92fs",
+              "M9A1",
+              "M9A3"
             ],
             "Eras": [],
             "Sets": [],
@@ -1388,7 +1693,7 @@
           },
           {
             "Category": "Firearm",
-            "Rarity": 3.0,
+            "Rarity": 6.0,
             "RequiredQuest": "",
             "ItemsToSpawn": 2,
             "MinAmmoCapacity": 15,
@@ -1402,42 +1707,7 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "vault_BerettaM9_suppressed_empty_hbb"
-            ],
-            "Eras": [],
-            "Sets": [],
-            "Sizes": [],
-            "Actions": [],
-            "Modes": [],
-            "ExcludedModes": [],
-            "FeedOptions": [],
-            "MountsAvailable": [],
-            "RoundPowers": [],
-            "Features": [],
-            "MeleeStyles": [],
-            "MeleeHandedness": [],
-            "MountTypes": [],
-            "PowerupTypes": [],
-            "ThrownTypes": [],
-            "ThrownDamageTypes": [],
-            "SubGroups": []
-          },
-          {
-            "Category": "Firearm",
-            "Rarity": 3.0,
-            "RequiredQuest": "",
-            "ItemsToSpawn": 2,
-            "MinAmmoCapacity": 15,
-            "MaxAmmoCapacity": 15,
-            "NumMagsSpawned": 3,
-            "NumClipsSpawned": 3,
-            "NumRoundsSpawned": 18,
-            "SpawnMagAndClip": false,
-            "BespokeAttachmentChance": 0.0,
-            "IsCompatibleMagazine": false,
-            "AutoPopulateGroup": false,
-            "ForceSpawnAllSubPools": false,
-            "IDOverride": [
+              "vault_BerettaM9_suppressed_empty_hbb",
               "vault_BerettaM92fs_suppressed_empty_hbb"
             ],
             "Eras": [],
@@ -1675,16 +1945,11 @@
               "vault_Mossberg500Cruiser_empty_hbb",
               "vault_Mossberg500Cruiser_empty_hbb",
               "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
-              "vault_Mossberg500Cruiser_empty_hbb",
+              "vault_Mossberg590_empty_hbb",
+              "vault_Mossberg590_empty_hbb",
+              "vault_Mossberg590_empty_hbb",
+              "vault_Mossberg590_empty_hbb",
+              "vault_Mossberg590_empty_hbb",
               "vault_Mossberg590_empty_hbb",
               "vault_Mossberg590_empty_hbb",
               "vault_Mossberg590_empty_hbb",
@@ -1725,16 +1990,6 @@
               "vault_Remington870_empty_hbb",
               "vault_Remington870_empty_hbb",
               "vault_Remington870_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
-              "vault_Remington870_short_empty_hbb",
               "vault_Remington870_short_empty_hbb",
               "vault_Remington870_short_empty_hbb",
               "vault_Remington870_short_empty_hbb",
@@ -1866,6 +2121,8 @@
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
               "MP5K",
+              "MP5A2",
+              "MP5A3",
               "MP5KA4",
               "MicroUzi",
               "Uzi_Mini"
@@ -2486,10 +2743,10 @@
         },
         {
           "Encryptions": [
-            "Recursive"
+            "Cascading"
           ],
-          "MinTargets": 2,
-          "MaxTargets": 2,
+          "MinTargets": 1,
+          "MaxTargets": 1,
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
@@ -2629,10 +2886,10 @@
         },
         {
           "Encryptions": [
-            "Agile"
+            "Cascading"
           ],
-          "MinTargets": 3,
-          "MaxTargets": 3,
+          "MinTargets": 1,
+          "MaxTargets": 1,
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
@@ -2806,7 +3063,7 @@
         },
         {
           "Encryptions": [
-            "Regenerative"
+            "Refractive"
           ],
           "MinTargets": 1,
           "MaxTargets": 1,
@@ -3002,10 +3259,10 @@
         },
         {
           "Encryptions": [
-            "Agile"
+            "Cascading"
           ],
-          "MinTargets": 3,
-          "MaxTargets": 3,
+          "MinTargets": 1,
+          "MaxTargets": 1,
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
@@ -3196,7 +3453,7 @@
         },
         {
           "Encryptions": [
-            "Regenerative"
+            "Refractive"
           ],
           "MinTargets": 1,
           "MaxTargets": 1,
@@ -3516,12 +3773,12 @@
         },
         {
           "Encryptions": [
-            "Static"
+            "Orthagonal"
           ],
-          "MinTargets": 6,
-          "MaxTargets": 9,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
+          "MinTargets": 1,
+          "MaxTargets": 1,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
           "EnemyType": [
             "sosig_wong_hospital_runner_hbb"
           ],

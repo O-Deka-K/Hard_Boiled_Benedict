@@ -1,25 +1,42 @@
 {
-  "FileName": "vault_sub_MB500Chopped_hbb",
+  "FileName": "vault_BerettaM9A3_hbb",
   "LoadedRoundsInMag": [
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00",
-    "BuckShot00"
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ"
   ],
   "LoadedRoundsInChambers": [
-    "BuckShot00"
+    "FMJ"
   ],
   "SavedFlags": [],
   "OverrideFireRate": false,
-  "SpeedRearward": 0.0,
-  "SpeedForward": 0.0,
-  "SpringStiffness": 0.0,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 1.8,
+  "SpringStiffness": 200.0,
   "OverrideFireSelectors": false,
-  "FireSelectorModes": [],
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    }
+  ],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "MB500Chopped",
+      "ObjectID": "M9A3",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -50,26 +67,26 @@
     },
     {
       "Index": 1,
-      "ObjectID": "12GaugeShell00Buckshot",
+      "ObjectID": "MagazineM9A1",
       "PosOffset": {
-        "x": 0.08957184,
-        "y": -0.105870977,
-        "z": -0.00358055858
+        "x": 0.0,
+        "y": -0.0199999325,
+        "z": 0.0
       },
       "OrientationForward": {
-        "x": 0.9859742,
-        "y": 0.0,
-        "z": -0.166897908
+        "x": 0.0,
+        "y": -0.2588186,
+        "z": 0.965925932
       },
       "OrientationUp": {
-        "x": 0.0524579734,
-        "y": 0.949316,
-        "z": 0.3099149
+        "x": 0.0,
+        "y": 0.965925932,
+        "z": 0.2588186
       },
       "ObjectAttachedTo": -1,
       "MountAttachedTo": -1,
       "IsFirearm": false,
-      "IsMagazine": false,
+      "IsMagazine": true,
       "IsAttachment": false,
       "Flags": {
         "IsKinematicLocked": "False",
